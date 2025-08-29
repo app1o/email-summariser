@@ -194,4 +194,4 @@ def readEmails():
         print(f'An error occurred: {error}')
 
 readEmails()
-readEmails()
+

@@ -192,4 +192,6 @@ def readEmails():
                 service.users().messages().modify(userId='me',id=message['id'],body={'removeLabelIds': ['UNREAD']}).execute()                                                     
     except Exception as error:
         print(f'An error occurred: {error}')
+
+readEmails()
 readEmails()
